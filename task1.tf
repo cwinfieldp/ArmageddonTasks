@@ -12,7 +12,7 @@ provider "google" {
   project = "gcp-terraform-project-420321"
   region = "us-central1"
   zone = "us-central1-a"
-  credentials = "gcp-terraform-project-420321-f2cc606dad59.json"
+  credentials = ""
 }
 
 resource "google_storage_bucket" "armageddon-bucket3" {
